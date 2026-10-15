@@ -1,26 +1,26 @@
 class Aeo < Formula
   desc "GEO CLI for AI search engine visibility"
   homepage "https://github.com/aeolo-ai/aeo"
-  version "2.3.41"
+  version "2.3.43"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/aeolo-ai/aeo/releases/download/v2.3.41/aeo_darwin_arm64.tar.gz"
-      sha256 "524b448456c87b7613de419d04f873f428493868770d44a7f713dc6c1f011965"
+      url "https://github.com/aeolo-ai/aeo/releases/download/v2.3.43/aeo_darwin_arm64.tar.gz"
+      sha256 "48664c2f6c8d97766c94ad7d5d384b581c710f6aeb3e3fb4a3f967f2e3d78e95"
     else
-      url "https://github.com/aeolo-ai/aeo/releases/download/v2.3.41/aeo_darwin_amd64.tar.gz"
-      sha256 "0a0e42f1c32533f73e4ed8bea237ec2c284ee7dabc58acf30b87938e38d3cd63"
+      url "https://github.com/aeolo-ai/aeo/releases/download/v2.3.43/aeo_darwin_amd64.tar.gz"
+      sha256 "cebfd1466479eefcd6b0c5cf38b771751e5fadd61aa68bc9af8b4a87d60b7fa2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/aeolo-ai/aeo/releases/download/v2.3.41/aeo_linux_arm64.tar.gz"
-      sha256 "3ced8c955e2eda509d52687357ed25ca5ec7d1a639ff16fd80de6b57654187bd"
+      url "https://github.com/aeolo-ai/aeo/releases/download/v2.3.43/aeo_linux_arm64.tar.gz"
+      sha256 "913d99387f1cccd3760f9ff1b3cc2db9eab32be54d56f34e38f05f5fc29c69cf"
     else
-      url "https://github.com/aeolo-ai/aeo/releases/download/v2.3.41/aeo_linux_amd64.tar.gz"
-      sha256 "9e8ae61e842670c1ebfc4c7c7dd47d0653805a9fca98997be679e65d14efabf2"
+      url "https://github.com/aeolo-ai/aeo/releases/download/v2.3.43/aeo_linux_amd64.tar.gz"
+      sha256 "c4015948e4e46ff5232265c64aafff3ee43782307d7176489fb2dcb7e06639d8"
     end
   end
 
